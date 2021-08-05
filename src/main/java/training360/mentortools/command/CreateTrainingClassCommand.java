@@ -15,7 +15,7 @@ import javax.validation.constraints.Size;
 public class CreateTrainingClassCommand {
 
     @NotBlank
-    @Size(max = 200)
+    @Size(max = 255)
     private String name;
 
     @IsValidFinishDate

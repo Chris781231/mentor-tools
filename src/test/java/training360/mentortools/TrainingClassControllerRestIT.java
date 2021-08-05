@@ -102,7 +102,7 @@ public class TrainingClassControllerRestIT {
         Problem blankNameProblem = template.postForObject("/api/trainingclasses",
                 new CreateTrainingClassCommand("", new InternalDates(LocalDate.of(2020, 1, 1), LocalDate.of(2020, 1, 2))),
                 Problem.class);
-        String name = "a".repeat(201);
+        String name = "a".repeat(256);
         Problem tooLongNameProblem = template.postForObject("/api/trainingclasses",
                 new CreateTrainingClassCommand(name, new InternalDates(LocalDate.of(2020, 1, 1), LocalDate.of(2020, 1, 2))),
                 Problem.class);
@@ -195,7 +195,7 @@ public class TrainingClassControllerRestIT {
                 HttpMethod.PUT,
                 new HttpEntity<>(new CreateTrainingClassCommand("", new InternalDates(LocalDate.of(2020, 1, 1), LocalDate.of(2020, 1, 2)))),
                 Problem.class).getBody();
-        String name = "a".repeat(201);
+        String name = "a".repeat(256);
         Problem tooLongNameProblem = template.exchange("/api/trainingclasses/" + java_backend_id,
                 HttpMethod.PUT,
                 new HttpEntity<>(new CreateTrainingClassCommand(name, new InternalDates(LocalDate.of(2020, 1, 1), LocalDate.of(2020, 1, 2)))),
