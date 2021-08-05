@@ -1,4 +1,4 @@
-package training360.mentortools.command;
+package training360.mentortools.command.trainingclass;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

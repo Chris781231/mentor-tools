@@ -2,8 +2,8 @@ package training360.mentortools.controller;
 
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import training360.mentortools.command.CreateTrainingClassCommand;
-import training360.mentortools.command.UpdateTrainingClassCommand;
+import training360.mentortools.command.trainingclass.CreateTrainingClassCommand;
+import training360.mentortools.command.trainingclass.UpdateTrainingClassCommand;
 import training360.mentortools.dto.TrainingClassDto;
 import training360.mentortools.service.TrainingClassService;
 

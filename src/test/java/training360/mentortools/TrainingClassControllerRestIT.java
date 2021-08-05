@@ -9,8 +9,8 @@ import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpMethod;
 import org.springframework.test.context.jdbc.Sql;
 import org.zalando.problem.Problem;
-import training360.mentortools.command.CreateTrainingClassCommand;
-import training360.mentortools.command.UpdateTrainingClassCommand;
+import training360.mentortools.command.trainingclass.CreateTrainingClassCommand;
+import training360.mentortools.command.trainingclass.UpdateTrainingClassCommand;
 import training360.mentortools.dto.TrainingClassDto;
 import training360.mentortools.entity.InternalDates;
 
