@@ -1,0 +1,14 @@
+POST http://localhost:8080/api/trainingclasses
+Content-Type: application/json
+
+{
+  "name": "Java Backend",
+  "startDate": null,
+  "finishDate": null
+}
+
+###
+GET http://localhost:8080/api/trainingclasses
+Accept: application/json
+
+###
