@@ -61,8 +61,6 @@ public class TrainingClassService {
         trainingClass.setName(command.getName());
         trainingClass.setInternalDates(command.getInternalDates().getStartDate(), command.getInternalDates().getFinishDate());
 
-        System.out.println(trainingClass);
-
         return modelMapper.map(trainingClass, TrainingClassDto.class);
     }
 
