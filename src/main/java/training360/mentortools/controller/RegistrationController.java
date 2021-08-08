@@ -4,9 +4,9 @@ import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import training360.mentortools.command.registration.CreateRegistrationCommand;
 import training360.mentortools.command.registration.UpdateRegistrationCommand;
-import training360.mentortools.dto.RegisteredStudentByTrainingClassDto;
-import training360.mentortools.dto.RegisteredTrainingClassByStudentDto;
-import training360.mentortools.dto.RegistrationDto;
+import training360.mentortools.dto.registration.RegisteredStudentByTrainingClassDto;
+import training360.mentortools.dto.registration.RegisteredTrainingClassByStudentDto;
+import training360.mentortools.dto.registration.RegistrationDto;
 import training360.mentortools.service.RegistrationService;
 
 import javax.validation.Valid;

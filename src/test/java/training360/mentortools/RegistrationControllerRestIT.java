@@ -13,6 +13,9 @@ import training360.mentortools.command.registration.UpdateRegistrationCommand;
 import training360.mentortools.command.student.CreateStudentCommand;
 import training360.mentortools.command.trainingclass.CreateTrainingClassCommand;
 import training360.mentortools.dto.*;
+import training360.mentortools.dto.registration.RegisteredStudentByTrainingClassDto;
+import training360.mentortools.dto.registration.RegisteredTrainingClassByStudentDto;
+import training360.mentortools.dto.registration.RegistrationDto;
 import training360.mentortools.othertypes.InternalDates;
 import training360.mentortools.othertypes.Status;
 

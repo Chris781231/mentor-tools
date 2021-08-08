@@ -1,4 +1,4 @@
-package training360.mentortools.dto;
+package training360.mentortools.dto.registration;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
