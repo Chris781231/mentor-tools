@@ -1,6 +1,6 @@
 package training360.mentortools.validation;
 
-import training360.mentortools.entity.InternalDates;
+import training360.mentortools.othertypes.InternalDates;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;

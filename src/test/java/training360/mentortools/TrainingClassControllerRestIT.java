@@ -12,7 +12,7 @@ import org.zalando.problem.Problem;
 import training360.mentortools.command.trainingclass.CreateTrainingClassCommand;
 import training360.mentortools.command.trainingclass.UpdateTrainingClassCommand;
 import training360.mentortools.dto.TrainingClassDto;
-import training360.mentortools.entity.InternalDates;
+import training360.mentortools.othertypes.InternalDates;
 
 import java.time.LocalDate;
 import java.util.List;

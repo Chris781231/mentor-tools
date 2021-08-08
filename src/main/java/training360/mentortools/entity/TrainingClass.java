@@ -1,15 +1,14 @@
 package training360.mentortools.entity;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import training360.mentortools.othertypes.InternalDates;
 
 import javax.persistence.*;
 import java.time.LocalDate;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 @Entity
 @Table(name = "training_classes")
 public class TrainingClass {

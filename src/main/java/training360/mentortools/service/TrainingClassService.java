@@ -9,7 +9,7 @@ import training360.mentortools.EntityNotFoundException;
 import training360.mentortools.command.trainingclass.CreateTrainingClassCommand;
 import training360.mentortools.command.trainingclass.UpdateTrainingClassCommand;
 import training360.mentortools.dto.TrainingClassDto;
-import training360.mentortools.entity.InternalDates;
+import training360.mentortools.othertypes.InternalDates;
 import training360.mentortools.entity.TrainingClass;
 import training360.mentortools.repository.InternalDatesRepository;
 import training360.mentortools.repository.TrainingClassRepository;
